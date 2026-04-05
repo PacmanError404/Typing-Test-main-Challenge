@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Typing Speed Test</title>
+  <link rel="stylesheet" href="style_medium_timed.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header class="navbar">
+<div class="tst"><img src="/assets/images/logo-large.svg" alt=""></div>
+<div class="pb"><img src="/assets/images/icon-personal-best.svg" alt=""><span style="color: #727279;">   Personal Best:</span> 92 WPM</div>
+</header>
+
+<main class="status">
+  <div class="data_mod">
+    <div class="data" id="wpm">WPM:</div> 
+    <div class="mod" id="wpm_data">0</div>
+    <div class="divider">|</div>
+    <div class="data" id="accuracy"> Accuracy:</div> 
+    <div class="mod" id="acc_data">100%</div>
+    <div class="divider">|</div>
+    <div class="data" id="time">Time:</div>
+    <div class="mod" id="time_data">0:60</div>
+  </div>
+  <div class="difficulty">
+    <div id="diff">Difficulty: </div>
+    <div id="easy"><a href="start_easy.html">Easy</a></div>
+    <div id="medium"><a href="start_medium.html">Medium</a></div>
+    <div id="hard"><a href="start_hard.html">Hard</a></div>
+    <div class="divider">|</div>
+
+  </div>
+  
+  <div class="mode">
+    <div id="mode">Mode: </div>
+    <div id="timed"><a href="#">Timed(60s)</a></div>
+    <div id="passage"><a href="#">Passage</a></div>
+  </div>
+</main>
+  <hr style="margin-left: 100px;margin-right: 100px;margin-top: 10px;color: #727279;">
+  
+  <section>
+    <p id="text">
+  </section>
+    <hr style="margin-left: 100px;margin-right: 100px;margin-top: 30px;color: #727279;">
+
+    <footer>
+    <div class="restart"> <a href="#">Restart Test <img src="/assets/images/icon-restart.svg" alt=""></a></div>
+  </footer>
+  <!-- Test Complete End -->
+  <script src="script_medium.js"></script>
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+
+  
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: Custom;
+    src: url(/assets/fonts/Sora/Sora-VariableFont_wght.ttf);
+}
+body{
+    background-color: #121212;
+    font-family: Custom;
+}
+
+.divider{
+    color: #727279;
+    margin: 10px;
+    font-size: 120%;
+    margin-left: 15px;
+    font-weight: 200;
+}
+.navbar{
+    display: flex;
+    margin: 30px;
+    margin-bottom: -30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tst{
+    width: 50%;
+    height: 110px;
+}
+
+.pb{
+    width: 50%;
+    height: 110px;
+    text-align: right;
+    font-size: 90%;
+    color: white;
+}
+
+main{
+    position: inherit;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture1{
+    position: relative;
+    scale: 0.8;
+}
+
+.picture2{
+    position: absolute;
+    filter: opacity(50%);
+}
+
+.picture3{
+    position: absolute;
+    scale: 1.2;
+    filter: opacity(20%);
+}
+
+.flag{
+    font-size: 180%;
+    color: white;
+    font-weight: 700;
+}
+
+.flag_body{
+    font-size: 90%;
+    color: #727279;
+    margin: 8px;
+}
