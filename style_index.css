@@ -250,31 +250,31 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: max-content;
 }
 
 #button{
-    position: absolute;
+    position: fixed;
     background-color: #1a7dff;
     padding: 10px;
-    margin-top: 150px;
     border-radius: 8px;
-    margin-left: 550px;
-    margin-right: 550px;
     font-size: 90%;
     font-weight: 600;
     z-index: 10;
+    top: 250px;
+    left: 550px;
+}
+
+#other{
+    position: fixed;
+    color: white;
+    font-weight: 600;
+    top: 300px;
+    left: 490px;
 }
 
 #button a{
     text-decoration: none;
     color: white;
     
-}
-
-#other{
-    position: absolute;
-    color: white;
-    margin-top: 200px;
-    margin-left: 500px;
-    font-weight: 600;
 }
